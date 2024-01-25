@@ -1,15 +1,15 @@
-import { useState } from "react";
-
-import "./App.css";
-import { AlertDialogDemo } from "./components/AlertDialogDemo";
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
 
 function App() {
+ 
+
   return (
     <>
-      <p>Hola</p>
-      <AlertDialogDemo />
+     <Navbar />
+     <Hero />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

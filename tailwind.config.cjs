@@ -61,6 +61,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        Hanken: ["Hanken Grotesk" , "sans-serif"]
       },
       keyframes: {
         "accordion-down": {
