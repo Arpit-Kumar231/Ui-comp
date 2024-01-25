@@ -12,10 +12,10 @@ const Navbar = () => {
                 Merlin for
             </span>
             <span className="font-Hanken">Gmail</span></span></li>
-            <li className="mb-3 font-Hanken">Images</li>
-            <li className="mb-3"><GiAcid size={28} /></li>
+            <li className="mb-1 font-Hanken">Images</li>
+            <li className="mb-1"><GiAcid size={28} /></li>
             <li><TfiLayoutGrid3Alt size={22}/></li>
-            <li className="mb-3 "><div className="flex h-9 w-9 rounded-full overflow-hidden">
+            <li className="mb-1 "><div className="flex h-9 w-9 rounded-full overflow-hidden">
                  <img
                     className="h-full w-full object-cover"
                     src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzBXNuO6PezhC18aYH_2cYtS0I7KbxoKYdwA&usqp=CAU"}
@@ -29,3 +29,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
